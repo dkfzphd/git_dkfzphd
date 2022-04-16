@@ -9,9 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 ### Hill function for an activator
 ```{r}
@@ -51,9 +49,12 @@ plot(x2,y2,type = 'o',col="blue")
 lines(x1,y1,type = 'o',col="red")
 ```
 
+<<<<<<< HEAD
 ```{r}
 sessionInfo()
 ```
 
 
 
+=======
+>>>>>>> d456b30f123fa9878c62c004f6c53152adf5a0bb
