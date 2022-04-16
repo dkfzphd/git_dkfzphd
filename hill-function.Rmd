@@ -12,6 +12,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ### Hill function for an activator
+\begin{align}
+f(x)  = \beta \frac{x^{n}}{ x^{n} +k^{n} }
+\end{align}
 ```{r}
 
 hillfunc_act <- function(beta, k, x, n){
