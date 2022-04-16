@@ -41,6 +41,9 @@ hillfunc_repr <- function(beta, k, x, n){
 
 
 ### Hill function plot repressor
+\begin{align}
+f(x)  = \beta \frac{k^{n}}{ x^{n} +k^{n} }
+\end{align}
 ```{r}
 x2 <- seq(0,6, by=0.2)
 y2 <- hillfunc_repr(beta=2,k=2,x=x2,n=4)
